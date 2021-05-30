@@ -5,10 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Animated Sidebar</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fc5fc84c88.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mobile Navigation</title>
   </head>
   <body>
-    <h1>NETFLIX</h1>
+    <button class="nav-btn open-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+    <img src="Netflix_2014_logo.svg" alt="Logo" class="logo" />
+    <p class="text">Mobile Navigation</p>
+    <div class="nav nav-black">
+      <div class="nav nav-red">
+        <div class="nav nav-white">
+          <button class="nav-btn close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+          <img src="Netflix_2014_logo.svg" alt="Logo" class="logo" />
+          <ul class="list">
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Life At Netflix</a></li>
+            <li>
+              <ul>
+                <li><a href="#">Netflix Culture</a></li>
+                <li><a href="#">Work-Life Balance</a></li>
+                <li><a href="#">Inclusion and Diversity</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

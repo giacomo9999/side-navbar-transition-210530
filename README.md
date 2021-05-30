@@ -1,0 +1,1 @@
+Dynamic navbar that slides in from the left side of the browser window.
